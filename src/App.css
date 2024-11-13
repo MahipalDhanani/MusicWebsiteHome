@@ -1,0 +1,34 @@
+.active{
+    color: #fcd462 !important;
+}
+.slick-prev, .slick-arrow, .slick-next {
+    display: none !important;
+  }
+
+h2{
+    font-family: "Fredoka", serif;
+    font-weight: 400 !important;
+    color: #e3bf00 !important;
+}
+
+.slide1 {
+    background-image: url("/Images/slider1.png");
+}
+
+.slide2 {
+    background-image: url("/Images/slider2.png");
+}
+
+.slide3 {
+    background-image: url("/Images/slider3.png");
+}
+
+.slide4 {
+    background-image: url("/Images/slider4.png");
+}
+
+.slide {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
