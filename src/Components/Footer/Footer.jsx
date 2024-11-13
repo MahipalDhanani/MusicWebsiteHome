@@ -92,7 +92,7 @@ export default function Footer() {
       </div>
       
       <div className="bg-black text-white text-center py-4 mt-10">
-        <p>Copyright © 2024 by <span className="text-[#fcd462]">Ekanstech</span>. All Rights Reserved</p>
+        <p>Copyright © 2024 by <span className="text-[#fcd462]">Harmony Music</span>. All Rights Reserved</p>
       </div>
 
       {/* Scroll to Top Button */}
