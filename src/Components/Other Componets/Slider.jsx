@@ -39,7 +39,7 @@ const AutoScrollSlider = () => {
             {/* Background Video */}
             <video
                 className="absolute inset-0 w-full h-full object-cover z-0"
-                src="/Video/videoplayback.mp4" // Replace with your video path
+                src="/Video/videoplayback.mp4"
                 autoPlay
                 muted
                 loop
@@ -52,7 +52,7 @@ const AutoScrollSlider = () => {
             <div className="absolute z-20 w-full h-[500px]  flex items-center justify-center">
                 <Slider {...settings} className="w-full h-full flex items-center justify-center">
                     {slides.map((slide, index) => (
-                        <div key={index} className="flex items-center justify-center transform translate-y-[45%] h-screen w-full text-center text-white px-6">
+                        <div key={index} className="flex items-center justify-center transform translate-y-[50%] h-screen w-full text-center text-white px-6">
                             <div className="max-w-md mx-auto">
                                 <h2 className="text-3xl sm:text-4xl font-bold mb-4">{slide.title}</h2>
                                 <p className="text-lg sm:text-xl mb-6">{slide.description}</p>

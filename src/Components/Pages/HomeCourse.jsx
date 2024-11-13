@@ -5,43 +5,43 @@ const courses = [
       id: 1,
       title: "VOCAL",
       description: "Learn the essentials of vocal techniques.",
-      image: "/Images/Vocal.jpg",  // Update image path as needed
+      image: "/Images/VOCAL.jpg",  
       link: "/courses/vocal",
     },
     {
       id: 2,
       title: "HARMONIYUM",
       description: "Master the basics of Harmonium playing.",
-      image: "/Images/Harmonium.jpg",  // Update image path as needed
+      image: "/Images/harmonium.jpg",  
       link: "/courses/harmonium",
     },
     {
       id: 3,
       title: "KEYBOARD",
       description: "Learn keyboard skills and music theory.",
-      image: "/Images/Keyboard.jpg",  // Update image path as needed
+      image: "/Images/keyboard.jpg",  
       link: "/courses/keyboard",
     },
     {
       id: 4,
       title: "TABLA",
       description: "Master the art of playing Tabla.",
-      image: "/Images/Tabla.jpg",  // Update image path as needed
+      image: "/Images/Tabla.jpg",  
       link: "/courses/tabla",
     },
     {
       id: 5,
       title: "GUITAR",
       description: "Learn the fundamentals of guitar playing.",
-      image: "/Images/Guitar.jpg",  // Update image path as needed
+      image: "/Images/Guitar.jpg",  
       link: "/courses/guitar",
     },
     {
       id: 6,
-      title: "AOUCTOPED",
+      title: "OUCTOPED",
       description: "Learn music production using Aouctoped.",
-      image: "/Images/Aouctoped.jpg",  // Update image path as needed
-      link: "/courses/aouctoped",
+      image: "/Images/Ouctoped.jpg",  
+      link: "/courses/Ouctoped",
     },
 ];
 
