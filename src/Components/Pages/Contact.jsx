@@ -8,7 +8,7 @@ import ContactForm from '../Other Componets/ContactForm';
 function Contact() {
   return (
     <>
-      <section className="bg-gray-100 py-10 ">
+      <section className="bg-gray-100 py-16">
         <div className="container mx-auto max-w-screen-xl">
           <div className="flex flex-wrap lg:flex-nowrap px-4 md-px-0 -mx-4">
             {/* Contact Info Section */}
@@ -32,7 +32,7 @@ function Contact() {
                       <h4 className="font-semibold">Address</h4>
                       <p>
                         <a href="https://maps.app.goo.gl/Dh545u1x7F1pNWBJ7" target="_blank" rel="noopener noreferrer">
-                          238, Atlanta Mall, Near Sudama Chock, <br /> Mota Varachha, Surat - 394101
+                        344, 3rd Floor, Silver Bussiness Hub BRTS Road, Yogi Chowk,<br />  Simada Gam, Surat, Gujarat - 395004 
                         </a>
                       </p>
                     </div>
@@ -67,14 +67,15 @@ function Contact() {
             <div className="w-full lg:w-1/2 px-4">
               <div className="border-2 border-[#fcd462] rounded-lg overflow-hidden h-full">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18458.126597653896!2d72.87530210590099!3d21.24211111215467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4517873113d82fa5%3A0xe553cc8c5ab21d18!2sEkanstech%20Solutions!5e1!3m2!1sen!2sin!4v1726034764863!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4450.620585305152!2d72.89234897587602!3d21.218226081242918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04feea372a5ed%3A0x23e9d7bb13612e7a!2sHARMONY%20MUSIC!5e1!3m2!1sen!2sin!4v1731477509510!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
-                  allowFullScreen=""
+                  allowfullscreen=""
                   loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
+                  referrerpolicy="no-referrer-when-downgrade"
                   className="w-full h-[500px] lg:h-full"
                 ></iframe>
+
               </div>
             </div>
           </div>

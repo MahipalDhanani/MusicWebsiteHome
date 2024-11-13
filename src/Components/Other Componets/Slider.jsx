@@ -14,77 +14,59 @@ const AutoScrollSlider = () => {
         cssEase: "linear",
     };
 
+    // Content for each slide
+    const slides = [
+        {
+            title: "Discover Amazing Courses",
+            description: "Join us to unlock a world of learning and growth with expert instructors.",
+        },
+        {
+            title: "Enhance Your Skills",
+            description: "Explore our courses and take the next step in your professional journey.",
+        },
+        {
+            title: "Achieve Your Goals",
+            description: "Our community of learners and mentors will help you reach new heights.",
+        },
+        {
+            title: "Join Our Community",
+            description: "Connect with like-minded individuals and excel together.",
+        },
+    ];
+
     return (
-        <div className="w-full">
-            <Slider {...settings}>
-                {/* Slide 1 */}
-                <div className="slide slide1 h-[500px] relative bg-cover bg-right-bottom">
-                    <div className="absolute inset-0 flex items-center justify-center text-center text-white z-10 px-6">
-                        <div>
-                            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-                                Discover Amazing Courses
-                            </h2>
-                            <p className="text-lg sm:text-xl mb-6">
-                                Join us to unlock a world of learning and growth with expert instructors.
-                            </p>
-                            <NavLink to={"/contact"} className="px-6 py-3 bg-[#fcd459] text-black font-semibold rounded-md hover:bg-yellow-500 transition duration-200">
-                                Contact Us
-                            </NavLink>
-                        </div>
-                    </div>
-                </div>
+        <div className="w-full relative h-screen">
+            {/* Background Video */}
+            <video
+                className="absolute inset-0 w-full h-full object-cover z-0"
+                src="/Video/videoplayback.mp4" // Replace with your video path
+                autoPlay
+                muted
+                loop
+            />
 
-                {/* Slide 2 */}
-                <div className="slide slide2 h-[500px] relative bg-cover bg-right-bottom">
-                    <div className="absolute inset-0 flex items-center justify-center text-center text-white z-10 px-6">
-                        <div>
-                            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-                                Enhance Your Skills
-                            </h2>
-                            <p className="text-lg sm:text-xl mb-6">
-                                Explore our courses and take the next step in your professional journey.
-                            </p>
-                            <NavLink to={"/contact"} className="px-6 py-3 bg-[#fcd459] text-black font-semibold rounded-md hover:bg-yellow-500 transition duration-200">
-                                Contact Us
-                            </NavLink>
-                        </div>
-                    </div>
-                </div>
+            {/* Overlay for slider content */}
+            <div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
 
-                {/* Slide 3 */}
-                <div className="slide slide3 h-[500px] relative bg-cover bg-right-bottom">
-                    <div className="absolute inset-0 flex items-center justify-center text-center text-white z-10 px-6">
-                        <div>
-                            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-                                Achieve Your Goals
-                            </h2>
-                            <p className="text-lg sm:text-xl mb-6">
-                                Our community of learners and mentors will help you reach new heights.
-                            </p>
-                            <NavLink to={"/contact"} className="px-6 py-3 bg-[#fcd459] text-black font-semibold rounded-md hover:bg-yellow-500 transition duration-200">
-                                Contact Us
-                            </NavLink>
+            {/* Text Content Slider */}
+            <div className="absolute z-20 w-full h-[500px]  flex items-center justify-center">
+                <Slider {...settings} className="w-full h-full flex items-center justify-center">
+                    {slides.map((slide, index) => (
+                        <div key={index} className="flex items-center justify-center transform translate-y-[45%] h-screen w-full text-center text-white px-6">
+                            <div className="max-w-md mx-auto">
+                                <h2 className="text-3xl sm:text-4xl font-bold mb-4">{slide.title}</h2>
+                                <p className="text-lg sm:text-xl mb-6">{slide.description}</p>
+                                <NavLink
+                                    to="/contact"
+                                    className="px-6 py-3 bg-[#fcd459] text-black font-semibold rounded-md hover:bg-yellow-500 transition duration-200"
+                                >
+                                    Contact Us
+                                </NavLink>
+                            </div>
                         </div>
-                    </div>
-                </div>
-
-                {/* Slide 4 */}
-                <div className="slide slide4 h-[500px] relative bg-cover bg-right-bottom">
-                    <div className="absolute inset-0 flex items-center justify-center text-center text-white z-10 px-6">
-                        <div>
-                            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-                                Join Our Community
-                            </h2>
-                            <p className="text-lg sm:text-xl mb-6">
-                                Connect with like-minded individuals and excel together.
-                            </p>
-                            <NavLink to={"/contact"} className="px-6 py-3 bg-[#fcd459] text-black font-semibold rounded-md hover:bg-yellow-500 transition duration-200">
-                                Contact Us
-                            </NavLink>
-                        </div>
-                    </div>
-                </div>
-            </Slider>
+                    ))}
+                </Slider>
+            </div>
         </div>
     );
 };

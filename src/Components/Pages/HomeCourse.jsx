@@ -3,48 +3,47 @@ import React from "react";
 const courses = [
     {
       id: 1,
-      title: "Guitar Basics",
-      description: "Learn the fundamentals of guitar playing.",
-      image: "/public/Images/Guitar Basics.jpg", 
-      link: "/courses/guitar-basics",
+      title: "VOCAL",
+      description: "Learn the essentials of vocal techniques.",
+      image: "/Images/Vocal.jpg",  // Update image path as needed
+      link: "/courses/vocal",
     },
     {
       id: 2,
-      title: "Piano Essentials",
-      description: "Master the basics of piano techniques.",
-      image: "/public/Images/Piano Essentials.jpg",
-      link: "/courses/piano-essentials",
+      title: "HARMONIYUM",
+      description: "Master the basics of Harmonium playing.",
+      image: "/Images/Harmonium.jpg",  // Update image path as needed
+      link: "/courses/harmonium",
     },
     {
       id: 3,
-      title: "Drumming 101",
-      description: "Start your drumming journey here.",
-      image: "/public/Images/Drumming 101.jpg",
-      link: "/courses/drumming-101",
+      title: "KEYBOARD",
+      description: "Learn keyboard skills and music theory.",
+      image: "/Images/Keyboard.jpg",  // Update image path as needed
+      link: "/courses/keyboard",
     },
     {
       id: 4,
-      title: "Vocal Training",
-      description: "Learn the essentials of vocal techniques.",
-      image: "/public/Images/Guitar Basics.jpg",
-      link: "/courses/vocal-training",
+      title: "TABLA",
+      description: "Master the art of playing Tabla.",
+      image: "/Images/Tabla.jpg",  // Update image path as needed
+      link: "/courses/tabla",
     },
     {
       id: 5,
-      title: "Music Theory",
-      description: "Dive into the world of music theory.",
-      image: "/public/Images/Guitar Basics.jpg",
-      link: "/courses/music-theory",
+      title: "GUITAR",
+      description: "Learn the fundamentals of guitar playing.",
+      image: "/Images/Guitar.jpg",  // Update image path as needed
+      link: "/courses/guitar",
     },
     {
       id: 6,
-      title: "DJ Skills",
-      description: "Learn DJing basics and performance techniques.",
-      image: "/public/Images/Guitar Basics.jpg",
-      link: "/courses/dj-skills",
+      title: "AOUCTOPED",
+      description: "Learn music production using Aouctoped.",
+      image: "/Images/Aouctoped.jpg",  // Update image path as needed
+      link: "/courses/aouctoped",
     },
-  ];
-  
+];
 
 const CourseDisplay = () => {
   return (

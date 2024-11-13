@@ -5,7 +5,7 @@ const NotFoundPage = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-6">
       <div className="mt-12">
         <img
-          src="/public/Images/Musical Notes Illustration.png"
+          src="/Images/Musical Notes Illustration.png"
           alt="Musical Notes Illustration"
           className="w-full max-w-md mx-auto"
         />

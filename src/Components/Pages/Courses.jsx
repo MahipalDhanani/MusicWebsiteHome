@@ -14,7 +14,7 @@ function Courses() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8 px-4">
+    <div className="min-h-screen bg-gray-50 py-16 px-4">
       <div className="max-w-screen-lg mx-auto">
         <h2 className=" text-center text-3xl md:text-4xl mb-10">Music Instrument Classes</h2>
         

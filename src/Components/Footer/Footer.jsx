@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faLinkedin,faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram,faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faMapMarkerAlt, faEnvelope, faPhone, faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
@@ -77,7 +77,7 @@ export default function Footer() {
           <ul className="space-y-2">
             <li className="flex items-center gap-2">
               <FontAwesomeIcon icon={faMapMarkerAlt} className="text-xl transition-all" />
-              238, Atlanta Mall, Sudama Chock, Mota Varachha, Surat - 394101
+              344, Silver Bussiness Hub, Yogi Chowk, Simada Gam, Surat
             </li>
             <li className="flex items-center gap-2">
               <FontAwesomeIcon icon={faEnvelope} className="text-xl transition-all" />

@@ -5,7 +5,7 @@ import { HOC } from '../Hoc/HOC';
 
 const EventsAndGallery = () => {
     return (
-        <div className="min-h-screen bg-gray-50 py-12">
+        <div className="min-h-screen bg-gray-50 py-16">
             {/* Section Title */}
             <div className="text-center mb-8">
                 <h2 className="text-3xl md:text-4xl font-bold ">Events & Gallery</h2>

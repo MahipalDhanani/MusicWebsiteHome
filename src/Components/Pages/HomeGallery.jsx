@@ -2,14 +2,14 @@ import React from 'react';
 
 const Gallery = () => {
   const images = [
-    { src: '/public/Images/Open Riyaz.jpg', alt: 'Event 1' },
-    { src: '/public/Images/Open Riyaz.jpg', alt: 'Event 2' },
-    { src: '/public/Images/Open Riyaz.jpg', alt: 'Event 3' },
-    { src: '/public/Images/Open Riyaz.jpg', alt: 'Event 4' },
-    { src: '/public/Images/Open Riyaz.jpg', alt: 'Event 5' },
-    { src: '/public/Images/Open Riyaz.jpg', alt: 'Event 6' },
-    { src: '/public/Images/Open Riyaz.jpg', alt: 'Event 7' },
-    { src: '/public/Images/Open Riyaz.jpg', alt: 'Event 8' },
+    { src: '/Images/Open Riyaz.jpg', alt: 'Event 1' },
+    { src: '/Images/Open Riyaz.jpg', alt: 'Event 2' },
+    { src: '/Images/Open Riyaz.jpg', alt: 'Event 3' },
+    { src: '/Images/Open Riyaz.jpg', alt: 'Event 4' },
+    { src: '/Images/Open Riyaz.jpg', alt: 'Event 5' },
+    { src: '/Images/Open Riyaz.jpg', alt: 'Event 6' },
+    { src: '/Images/Open Riyaz.jpg', alt: 'Event 7' },
+    { src: '/Images/Open Riyaz.jpg', alt: 'Event 8' },
   ];
 
   return (

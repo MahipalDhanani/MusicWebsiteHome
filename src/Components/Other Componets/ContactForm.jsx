@@ -3,7 +3,7 @@ import { faUser, faEnvelope, faPhone, faMessage } from '@fortawesome/free-solid-
 
 const ContactForm = () => {
   return (
-    <section className="bg-gray-100 py-10 px-4 md-px-0">
+    <section className="bg-gray-100 py-16 px-4 md-px-0">
       <div className="container mx-auto">
         <div className="w-full mx-auto bg-white p-8 rounded-lg shadow-lg">
           <h2 className="text-2xl  mb-4">Get in Touch</h2>

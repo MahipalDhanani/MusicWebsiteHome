@@ -9,15 +9,15 @@ const About = () => {
   const tabContent = {
     mission: {
       text: "Empower individuals to master musical instruments through expert guidance, personalized classes, and a supportive community. Our mission is to provide aspiring musicians with the tools, skills, and confidence needed to excel in their musical journey. We believe that music has the power to inspire, uplift, and connect people across cultures and backgrounds. Whether you're a beginner looking to pick up an instrument for the first time or an experienced musician aiming to refine your skills, our dedicated instructors are here to support you every step of the way. We foster an inclusive and creative environment where every student feels valued and encouraged.",
-      image: "/public/Images/mission.jpg" // Replace with the actual mission image URL
+      image: "/Images/mission.jpg" // Replace with the actual mission image URL
     },
     vision: {
       text: "To create a world where everyone has the opportunity to unlock their musical potential and experience the joy of music. We envision a community where learning music is accessible, enjoyable, and fulfilling for all ages. Our goal is to bring the joy of playing an instrument to people of all skill levels, from absolute beginners to advanced musicians. By fostering a deep appreciation for music, we aim to cultivate lifelong learners who are passionate about the art of sound. Through innovative teaching methods, state-of-the-art resources, and a nurturing environment, we strive to inspire students to dream big and reach new heights in their musical endeavors.",
-      image: "/public/Images/Our Vision.jpg" // Replace with the actual vision image URL
+      image: "/Images/Our Vision.jpg" // Replace with the actual vision image URL
     },
     history: {
       text: "Founded by passionate musicians, our academy has helped students achieve musical mastery for over a decade with dedicated instructors and innovative teaching methods. Our journey began with a small group of music enthusiasts who shared a common dream: to make quality music education accessible to everyone. Over the years, we have grown into a thriving community of students, teachers, and music lovers who are committed to excellence in musical education. From humble beginnings, we've expanded our offerings to include a wide range of instruments, genres, and class formats to meet the diverse needs of our students. Today, our academy stands as a beacon of quality music education, recognized for its commitment to nurturing talent and fostering a deep love for music.",
-      image: "/public/Images/Our History.jpg" // Replace with the actual history image URL
+      image: "/Images/Our History.jpg" // Replace with the actual history image URL
     }
   };
   

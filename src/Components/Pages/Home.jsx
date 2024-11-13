@@ -7,7 +7,7 @@ import AboutUs from './HomeAboutUs'
 import Gallery from './HomeGallery'
 import ServicesSection from './HomeServices'
 import EnquiryForm from './HomeEnquiryForm'
-import TestimonialSection from './HomeTestimonialSection'
+import HomeTestimonialSection from './HomeTestimonialSection'
 
 function Home() {
     return (
@@ -22,7 +22,7 @@ function Home() {
             </div>
                 <ServicesSection />
                 <EnquiryForm />
-                <TestimonialSection />
+                <HomeTestimonialSection />
         </>
     )
 }
