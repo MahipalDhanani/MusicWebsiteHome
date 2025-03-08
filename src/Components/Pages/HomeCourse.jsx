@@ -73,6 +73,14 @@ const CourseDisplay = () => {
           </a>
         ))}
       </div>
+        <amp-ad width="100vw" height="320"
+     type="adsense"
+     data-ad-client="ca-pub-8767032106327629"
+     data-ad-slot="5047801795"
+     data-auto-format="mcrspv"
+     data-full-width="">
+  <div overflow=""></div>
+</amp-ad>
     </div>
   );
 };
